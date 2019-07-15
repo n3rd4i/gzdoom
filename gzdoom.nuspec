@@ -10,7 +10,7 @@
     <projectUrl>https://zdoom.org</projectUrl>
 
     <iconUrl>https://cdn.statically.io/img/zdoom.org/w/images/2/25/Circle_gzdoom.png</iconUrl>
-    <copyright>2007 GNU GENERAL PUBLIC LICENSE</copyright>
+    <copyright>2019 Christoph Oelckers</copyright>
     <licenseUrl>https://github.com/coelckers/gzdoom/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/coelckers/gzdoom</projectSourceUrl>
