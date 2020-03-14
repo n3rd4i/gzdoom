@@ -2,13 +2,13 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 . "$toolsDir\commonEnv.ps1"
 
-$url = 'https://github.com/coelckers/gzdoom/releases/download/g4.2.1/gzdoom-4-2-1-Windows-64bit.zip'
+$url = 'https://github.com/coelckers/gzdoom/releases/download/g4.3.3/gzdoom-4-3-3-Windows-64bit.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$installLocation"
   url           = $url
   softwareName  = 'gzdoom*'
-  checksum      = '434D576C823BEA78D83364C8890707D76D1F38EBC47AC4E3E743A97F2D993EAC'
+  checksum      = '85A08A81EE894C41EA851D8D4917E8AC0FCF5DAD2185FAFEBED83A93C55F9E37'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
