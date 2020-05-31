@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gzdoom</id>
     <version>4.3.3</version>
     <packageSourceUrl>https://github.com/n3rd4i/gzdoom.git</packageSourceUrl>
     <owners>n3rd4i</owners>
-    <title>gzdoom (Install)</title>
+    <title>GZDoom</title>
     <authors>Randi Heit, Christoph Oelckers, Alexey Lysiuk, Magnus Norddahl, Rachael Alexanderson, and Braden Obrzut</authors>
     <projectUrl>https://zdoom.org</projectUrl>
 
