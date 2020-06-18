@@ -1,5 +1,4 @@
-﻿
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gzdoom</id>
@@ -7,9 +6,8 @@
     <packageSourceUrl>https://github.com/n3rd4i/gzdoom.git</packageSourceUrl>
     <owners>n3rd4i</owners>
     <title>GZDoom</title>
-    <authors>Randi Heit, Christoph Oelckers, Alexey Lysiuk, Magnus Norddahl, Rachael Alexanderson, and Braden Obrzut</authors>
+    <authors>Randi Heit, Christoph Oelckers, Alexey Lysiuk, Magnus Norddahl, Rachael Alexanderson, Braden Obrzut</authors>
     <projectUrl>https://zdoom.org</projectUrl>
-
     <iconUrl>https://cdn.statically.io/img/zdoom.org/w/images/2/25/Circle_gzdoom.png</iconUrl>
     <copyright>2019 Christoph Oelckers</copyright>
     <licenseUrl>https://github.com/coelckers/gzdoom/blob/master/LICENSE</licenseUrl>
@@ -18,17 +16,18 @@
     <docsUrl>https://zdoom.org/wiki/Main_Page</docsUrl>
     <mailingListUrl>https://forum.zdoom.org/</mailingListUrl>
     <bugTrackerUrl>https://forum.zdoom.org/viewforum.php?f=21</bugTrackerUrl>
-
     <tags>gzdoom doom engine</tags>
     <summary>Enhanced port of the Doom engine</summary>
     <description>
 
-ZDoom is a family of enhanced ports of the Doom engine for running on modern operating systems. It runs on Windows, Linux, and OS X, and adds new features not found in the games as originally published by id Software.
+ZDoom is a family of enhanced ports of the Doom engine for running on modern operating systems.
+
+It runs on Windows, Linux, and OS X, and adds new features not found in the games as originally published by id Software.
 
     </description>
     <releaseNotes>https://zdoom.org/changelog</releaseNotes>
-    </metadata>
-    <files>
-      <file src="tools\**" target="tools" />
-    </files>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
