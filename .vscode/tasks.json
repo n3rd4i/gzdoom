@@ -34,7 +34,7 @@
 		{
 			"label": "auto-update",
 			"type": "shell",
-			"command": "$ENV:TEMP = 'T:\\Temp'; ./update.ps1",
+			"command": "$ENV:TEMP = 'T:\\Temp'; $au_Force = $true; ./update.ps1",
 			"options": {"shell": {"executable": "powershell.exe"}}
 		}
 	]
